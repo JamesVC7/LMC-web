@@ -1,0 +1,220 @@
+body{
+    background: #f2f5f5;
+}
+
+.direccion{
+    background: white;
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.contNombre{
+    color: #fff;
+}
+
+.contCarta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartaDetalle{
+    width: 50%;
+    margin: 3rem;
+    background: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.cartaDetalle h3{
+    font-family: auto;
+}
+
+.contDetail{
+    display: flex;
+    gap: 10px;
+}
+
+#detalleTitulo{
+    font-weight: bold;
+}
+
+.contBotones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 1rem;
+}
+
+#volver{
+    background: #759f4c;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+    width: 162px;
+    text-align: center;
+}
+
+#volver:hover{
+    background: #7ec736;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#confirm{
+    color: white;
+    background: #0956b8;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 172px;
+}
+
+#confirm:hover{
+    background: #2878de;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.contCompra{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    font-family: 'Queens Display Pro', sans-serif;
+    font-size: clamp(1rem, 8vw, 2.5rem);
+}
+
+h3{
+    font-family: 'Oktah Neue', sans-serif;
+    font-size: clamp(0.5rem, 6vw, 1.5rem);
+}
+
+.bubble {
+  background-color: #69aa0f; 
+  border-radius: 50%;
+  width: 80px; 
+  height: 80px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 50px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-image: url("../img/Top.jpg");
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+}
+
+.contCheck{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contReturn{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contReturn a{
+    background: green;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.contReturn a:hover{
+    background: #0eb20e;
+    transition: 0.8s;
+}
+
+.contentConfirm{
+    display: flex;
+    margin: 4rem 5rem;
+    justify-content: center;
+}
+
+.contConfirm{
+    background: white;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#miFormulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  select, input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .agregar{
+    background: transparent;
+    border: none;
+    color: white
+  }
+  
+  @media screen and (max-width:600px){
+    .cartaDetalle{
+        width: auto;
+        margin: 3rem 1rem;
+    }
+}

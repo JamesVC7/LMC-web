@@ -1,0 +1,72 @@
+body{
+    background: #f2f5f5;
+}
+
+.ContenedorD{
+    background: white;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.contData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+
+}
+
+.contentDatos{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contTabla{
+    margin: 2rem;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.divData{
+    display: flex;
+    flex-direction: column;
+}
+
+.divData{
+    width: 200px;
+}
+
+#dato{
+    padding: 0.5rem 0rem;
+    border-bottom: 1px solid black;
+}
+
+#header{
+    background: black;
+    color: white;
+}
+
+#hello{
+    margin: 2rem;
+    font-family: 'Retrocycles', sans-serif;
+}
+
+h2, h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.head{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#refresh{
+    border: 2px solid;
+    background: white;
+    border-radius: 1rem;
+}

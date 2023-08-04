@@ -1,0 +1,101 @@
+/*TOP*/
+.topNosotros{
+    background-image: url(../img/topNosotros.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    align-items: flex-end
+}
+
+.contTop{
+    z-index: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+
+.contTop h2{
+    color: #fff;
+    font-family: 'Milkipa', sans-serif;
+    padding-bottom: 10px;
+}
+
+.contTop h2:after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 60px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 4px;
+    height: 4px;
+}
+
+/*CONTENIDO*/
+.contDescrip{
+    padding: 6rem 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.contDescrip p{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Gowun Batang', sans-serif;
+}
+
+.flip-card {
+  perspective: 1000px;
+  display: flex;
+  align-items: center;
+  width: 180rem;
+  height: 450px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-inner  img{
+    width: 90%;
+    height: 350px;
+    border-radius: 5rem;
+    object-fit: cover;
+    object-position: bottom;
+    cursor: pointer;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  align-items: center;
+  display: flex;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width:1080px){
+    .contDescrip{
+    flex-wrap: wrap;
+    }
+    .flip-card{   
+    width: 80%;
+    margin: auto;
+    }
+}

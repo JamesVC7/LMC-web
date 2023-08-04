@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+        background-image: url("../img/fondo-login.jpg");
+        background-size: cover;
+        background-position: center center;
+        align-items: center;
+}
+
+.registro{
+        background: transparent;
+	border-radius: 10px;
+	font-family: 'calibri';
+	color: white;
+        max-width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 100vh;
+}
+
+.cont-login{
+    background: black;
+    padding: 30px;
+}
+
+.cont-login h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+        background: black;
+}
+
+.controls{
+	width: 100%;
+	background: black;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 16px;
+	border: 1px solid white;
+	font-size: 13px;
+	color: white;
+}
+
+.cont-login .botons{
+	width: 100%;
+	background: rgb(109, 17, 17);
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+.cont-login p{
+	text-align: center;
+	height: 40px;
+	font-size: 18px;
+        background: black;
+        
+}
+
+.cont-login a{
+	color: white;
+	text-decoration: none;
+        background: black;
+}
+
+.cont-login a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.formIniciar{
+    background: black;
+}
+
+.botons{
+    cursor: pointer;
+}
+

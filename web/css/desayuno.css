@@ -1,0 +1,62 @@
+/*TOP*/
+.topCarta{
+    background-image: url(../img/topCart.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    align-items: flex-end
+}
+
+.contTop{
+    z-index: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+
+.contTop h2{
+    color: #fff;
+    font-family: 'Milkipa', sans-serif;
+    padding-bottom: 10px;
+}
+
+.contTop h2:after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 60px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 4px;
+    height: 4px;
+}
+
+/*CONTENIDO CON CARTAS*/
+
+#titulo-Categorias{
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Madeilon Duskille', sans-serif;
+}
+
+.botonesCard{
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border-color: #8e44ad;
+}
+
+#precio{
+    text-align: left;
+    margin-left: 20px;
+}

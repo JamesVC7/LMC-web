@@ -1,0 +1,78 @@
+/*TOP*/
+.topCarta{
+    background-image: url(../img/topCart.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    align-items: flex-end
+}
+
+.contTop{
+    z-index: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+
+.contTop h2{
+    color: #fff;
+    font-family: 'Milkipa', sans-serif;
+    padding-bottom: 10px;
+}
+
+.contTop h2:after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 60px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 4px;
+    height: 4px;
+}
+
+/*CARTAS*/
+.contCard{
+    display: flex;
+    gap: 62px;
+    padding: 4rem 0rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.contCard a{
+    width: auto;
+}
+
+.card{
+    cursor: pointer;
+    border: none;
+    height: 100%;
+}
+
+.card-img{
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.card:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+}
+
+.card:hover{
+   filter: brightness(50%);
+}
+
+

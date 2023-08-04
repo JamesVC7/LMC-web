@@ -1,0 +1,8 @@
+.topPromo{
+    background-image: url(../img/topPromo.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    align-items: flex-end
+}
